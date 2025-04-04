@@ -115,7 +115,7 @@ SAS, R, python, SQL
 <img src="./img/week3_5.png" width="600"/>   
 
 ## 9.2. 데이터 처리 프로세스 이해하기   
-일반적 흐름: OLTP - DW(ODS) - DM - OLAP
+일반적 흐름: OLTP - DW(ODS) - DM - OLAP    
 <img src="./img/week3_6.png" width="600"/>  
 
 - **OLTP**: 시간으로 데이터를 트랜잭션 단위로 수집, 분류, 저장하는 시스템   
@@ -136,11 +136,28 @@ SAS, R, python, SQL
   - **Reduce**: 필터링과 정렬을 거쳐 데이터를 뽑아냄       
   <img src="./img/week3_7.png" width="600"/>   
 
-- **분산시스템 구조**
+- **분산시스템 구조**    
   <img src="./img/week3_8.png" width="600"/>
   
 ## 9.4. 테이블 조인과 정의서 그리고 ERD   
+### 9.4.1 테이블 조인
+- LEFT, RIGHT JOIN: 결합하는 테이블의 키 값에 해당하는 관측치가 여러 개면 그만큼 행이 늘어남
+- INNER JOIN: 두 테이블 간에 겹치는 부분의 행만 가져옴
+- FULL JOIN: 모든 행을 살리는 조인 방법, 일치하지 않으면 NULL
+- CROSS JOIN: 모든 조합 생성 → 주로 머신러닝에 사용되는 데이터셋을 생성할 때 사용
+- 
+### 9.4.2 데이터 단어 사전
+<img src="./img/week3_9.png" width="600"/>
 
+### 9.4.4 ERD
+- 논리 ERD: 사용자 중심의 관계 파악  
+- 물리 ERD: DB 구조 구현 중심
+- 테이블(=엔티티) 간 관계를 시각화  
+- **기본키(PK)**: 테이블에 적재된 각각의 데이터를 유일하게 구분하는 키     
+- **외래키(FK)**: 각 테이블 간에 연결을 만들기 위해서 테이블에서 다른 테이블의 참조되는 기본 키   
+- **ERD의 관계 표현**:  
+  - 1:1 / 1:N / 0:N 등 관계로 구조 설계
+    <img src="./img/week3_10.png" width="600"/>
 
 <br>
 <br>
