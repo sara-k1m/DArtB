@@ -146,7 +146,7 @@ SAS, R, python, SQL
 - FULL JOIN: 모든 행을 살리는 조인 방법, 일치하지 않으면 NULL
 - CROSS JOIN: 모든 조합 생성 → 주로 머신러닝에 사용되는 데이터셋을 생성할 때 사용
 - 
-### 9.4.2 데이터 단어 사전
+### 9.4.2 데이터 단어 사전   
 <img src="./img/week3_9.png" width="600"/>
 
 ### 9.4.4 ERD
@@ -156,7 +156,7 @@ SAS, R, python, SQL
 - **기본키(PK)**: 테이블에 적재된 각각의 데이터를 유일하게 구분하는 키     
 - **외래키(FK)**: 각 테이블 간에 연결을 만들기 위해서 테이블에서 다른 테이블의 참조되는 기본 키   
 - **ERD의 관계 표현**:  
-  - 1:1 / 1:N / 0:N 등 관계로 구조 설계
+  - 1:1 / 1:N / 0:N 등 관계로 구조 설계   
     <img src="./img/week3_10.png" width="600"/>
 
 <br>
@@ -180,19 +180,19 @@ SAS, R, python, SQL
 ### 1-1. 
 ![TABLE](https://github.com/ejejbb/Template/raw/main/File/2-1.PNG)
 ```
-여기에 답을 작성해주세요!
+LEFT JOIN
 ```
 
 ### 1-2. 
 ![TABLE](https://github.com/ejejbb/Template/raw/main/File/2-3.PNG)
 ```
-여기에 답을 작성해주세요!
+INNER JOIN
 ```
 
 ### 1-3. 
 ![TABLE](https://github.com/ejejbb/Template/raw/main/File/2-2.PNG)
 ```
-여기에 답을 작성해주세요!
+RIGHT JOIN
 ```
 
 ### 🎉 수고하셨습니다.
