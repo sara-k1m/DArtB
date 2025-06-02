@@ -127,6 +127,23 @@ DBSCAN: 밀도 기반 클러스터링, 복잡한 형상 및 잡음 포함 데이
 
 ## 14.3. 회귀성능 평가지표
 <!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
+- R-Square:   
+    전체 변동 중에서 회귀모델이 설명할 수 있는 비율
+- Adjusted R-Square:   
+    변수 수가 늘어나면 R²이 무조건 높아지는 문제를 보완
+
+- RMSE (Root Mean Square Error):   
+    예측값과 실제값 사이의 제곱 오차 평균의 제곱근, 단위가 원래 스케일과 같아 직관적, 값이 작을수록 좋은 모델
+- MAE (Mean Absolute Error):   
+    예측값과 실제값 간 절대 오차의 평균, 이상치에 덜 민감하고 해석이 간단함, RMSE보다 작거나 같은 값을 가짐
+- MAPE (Mean Absolute Percentage Error):   
+    비율 기반 오차 측정: 예측오차를 실제값 기준 백분율로 환산, 예측값이 0에 가까운 경우 계산이 어려움
+- RMSLE (Root Mean Square Logarithmic Error):   
+    로그 스케일에서의 제곱 오차 평균의 제곱근, 예측값과 실제값이 둘 다 1 이상일 때 유용, 값이 크더라도 비율 차이가 중요한 문제에 적합
+- AIC (Akaike Information Criterion):   
+    최대우도에 독립 변수가 얼마나 많은가에 따른 페널티를 반영하여 계산하는 모델 평가 척도, 적합도와 복잡도(모델의 변수 수)를 모두 고려
+- BIC (Bayesian Information Criterion):   
+    AIC와 유사하지만 더 강하게 복잡도에 패널티 부여
 
 ## 14.6. 유의확률의 함정
 <!-- 새롭게 배운 내용을 자유롭게 정리해주세요.-->
